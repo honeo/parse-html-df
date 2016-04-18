@@ -1,6 +1,6 @@
 {
   "name": "parse-html-df",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "string -> documentFragment",
   "main": "index.js",
   "scripts": {
@@ -26,9 +26,6 @@
     "url": "https://github.com/honeo/parse-html-df/issues"
   },
   "homepage": "https://github.com/honeo/parse-html-df#readme",
-  "dependencies": {
-    "babel-register": "^6.7.2"
-  },
   "keywords": [
     "parse",
     "html",
