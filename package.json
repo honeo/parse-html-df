@@ -1,0 +1,37 @@
+{
+  "name": "parse-html-df",
+  "version": "1.0.0",
+  "description": "string -> documentFragment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "honeo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-core": "^6.7.6",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "nightmare": "^2.3.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/parse-html-df.git"
+  },
+  "bugs": {
+    "url": "https://github.com/honeo/parse-html-df/issues"
+  },
+  "homepage": "https://github.com/honeo/parse-html-df#readme",
+  "dependencies": {
+    "babel-register": "^6.7.2"
+  },
+  "keywords": [
+    "parse",
+    "html",
+    "documentfragument"
+  ]
+}
