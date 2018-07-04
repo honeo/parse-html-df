@@ -1,13 +1,15 @@
 # parse-html-df
-[honeo/parse-html-df](https://github.com/honeo/parse-html-df)  
-[parse-html-df](https://www.npmjs.com/package/parse-html-df)
+* [honeo/parse-html-df](https://github.com/honeo/parse-html-df)  
+* [parse-html-df](https://www.npmjs.com/package/parse-html-df)
+
 
 ## なにこれ
 文字列をHTMLにしてDocumentFragmentに入れて返す。
 
+
 ## 使い方
 ```sh
-$ npm i -S parse-html-df
+$ npm i parse-html-df
 ```
 ```js
 import parseHTML from 'parse-html-df';
@@ -24,6 +26,7 @@ document.body.append(df);
 	</div>
 <body>
 ```
+
 
 ## prototype拡張
 ご利用は計画的に。

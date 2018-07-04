@@ -1,7 +1,7 @@
 /*
 	prototype
 */
-import parseHTML from './parse-html.js';
+import parseHTML from './parse-html.mjs';
 
 Object.defineProperty(HTMLDocument.prototype, 'parseHTML', {
     value: parseHTML,

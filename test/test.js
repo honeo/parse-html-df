@@ -15,7 +15,7 @@ nightmare
 		require('babel-register')({
 			presets: ['es2015', 'stage-0']
 		});
-		const isRegister = require('../register').default;
+		const isRegister = require('../register.mjs').default;
 		const parseHTML = require('../').default;
 		const htmlString = '<div>hoge</div><span>fuga</span>';
 		const df1 = parseHTML(htmlString);

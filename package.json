@@ -2,7 +2,7 @@
   "name": "parse-html-df",
   "version": "1.0.1",
   "description": "string -> documentFragment",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "node test/test.js"
   },
