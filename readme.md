@@ -15,7 +15,7 @@ $ npm i parse-html-df
 import parseHTML from 'parse-html-df';
 
 // or dynamic-import, CDN
-const parseHTML = await import('https://cdn.rawgit.com/honeo/parser-html-df/master/index.mjs');
+const parseHTML = await import('https://cdn.rawgit.com/honeo/parse-html-df/master/index.mjs');
 
 
 const df = parseHTML('hoge<div class="fuga"><span class="piyo">foobar</span></div>');
