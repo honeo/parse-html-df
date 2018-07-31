@@ -15,12 +15,10 @@ nightmare
 		require('babel-register')({
 			presets: ['es2015', 'stage-0']
 		});
-		const isRegister = require('../register.mjs').default;
 		const parseHTML = require('../').default;
 		const htmlString = '<div>hoge</div><span>fuga</span>';
 		const df1 = parseHTML(htmlString);
-		const df2 = document.parseHTML(htmlString);
-		return isRegister && df1.childNodes.length===2 && df2.childNodes.length===2;
+		return df1.childNodes.length===2;
 	})
 	.end()
 	.then( (arg)=>{

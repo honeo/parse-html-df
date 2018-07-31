@@ -4,7 +4,7 @@
 
 
 ## なにこれ
-文字列をHTMLにしてDocumentFragmentに入れて返す。
+HTML string -> documentFragment
 
 
 ## 使い方
@@ -13,6 +13,10 @@ $ npm i parse-html-df
 ```
 ```js
 import parseHTML from 'parse-html-df';
+
+// or dynamic-import, CDN
+const parseHTML = await import('https://cdn.rawgit.com/honeo/url-change/master/index.mjs');
+
 
 const df = parseHTML('hoge<div class="fuga"><span class="piyo">foobar</span></div>');
 document.body.append(df);
@@ -25,13 +29,4 @@ document.body.append(df);
 		<span class="piyo">foobar</span>
 	</div>
 <body>
-```
-
-
-## prototype拡張
-ご利用は計画的に。
-```js
-import 'parse-html-df/register';
-
-const df = document.parseHTML('htmlstring');
 ```
